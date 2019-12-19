@@ -1,0 +1,37 @@
+--初始化
+设置用户名 ： git config-global user.name 'mycast'
+设置用户名邮箱 ： git config-global user.email '123@qq.com'
+--常用命令
+$ ls
+
+$ pwd (显示当前路径)
+
+$ mkdir test    (创建test文件夹)
+
+$ cd test
+$ git init      (创建git仓库的隐藏文件)
+
+
+$ git status  （查看状态）
+$ git config --list  （查看验证本地属性）
+
+
+$ touch a1.php   (创建文件)
+$ git add a1.php  (添加到暂存区)
+$ git commit -m '描述add a1.php'  (从暂存区添加到仓库)
+
+$ vi a1.php  （修改文件）
+$ cat a1.php  （查看修改）
+$ git add a1.php  (添加到暂存区)
+$ git commit -m '描述修改 a1.php' (从暂存区修改到仓库)
+
+$ rm -rf a1.php (删除暂存区文件)
+$ git rm a1.php (从git库删除文件)
+$ git commit -m 'a1.php的删除描述' (提交删除文件的操作)
+
+
+$ git clone  github网址    （远程仓库下载到本地）
+$ git push    （本地提交到远程仓库）
+
+
+$ vi .git/config  (修改url)
